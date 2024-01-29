@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "Bitter";
+    src:  url("../fonts/Bitter/Bitter-Black.ttf") format(ttf);
+    src: url("../fonts/Bitter/Bitter-Bold.ttf") format(ttf);
+    src: url(../fonts/Bitter/Bitter-Medium.ttf) format(ttf);
+    src: url("../fonts/Bitter/Bitter-Regular.ttf") format(ttf);
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Dosis";
+    src: url("../fonts/Dosis/Dosis-Medium.ttf")  format(ttf);
+    src: url("../fonts/Dosis/Dosis-Regular.ttf") format(ttf);
+    src: url("../fonts/Dosis/Dosis-Bold.ttf") format(ttf);
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
