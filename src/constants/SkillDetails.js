@@ -1,10 +1,10 @@
-// import HtmlIcon from '../assets/Icon/html5-original.svg';
-// import CssIcon from '../assets/Icon/css3-original.svg';
-// import JsIcon from '../assets/Icon/javascript-original.svg';
-// import ReactIcon from '../assets/Icon/react-original.svg';
-// import NodeIcon from '../assets/Icon/nodejs-original.svg';
-// import GitIcon from '../assets/Icon/git-original.svg';
-import { HtmlIcon, CssIcon, JsIcon, ReactIcon, NodeIcon, GitIcon  } from "../assets/Icon";
+import HtmlIcon from '../assets/Icon/html5-original.svg';
+import CssIcon from '../assets/Icon/css3-original.svg';
+import JsIcon from '../assets/Icon/javascript-original.svg';
+import ReactIcon from '../assets/Icon/react-original.svg';
+import NodeIcon from '../assets/Icon/nodejs-original.svg';
+import GitIcon from '../assets/Icon/git-original.svg';
+// import { HtmlIcon, CssIcon, JsIcon, ReactIcon, NodeIcon, GitIcon  } from "../assets/Icon";
 
 export const devSkills = {
     htmlSkill: {

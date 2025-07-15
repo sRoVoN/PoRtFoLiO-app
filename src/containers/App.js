@@ -1,4 +1,4 @@
-import MainLayout from '../layouts/MainLayouy';
+import MainLayout from '../layouts/MainLayout';
 import { Sidebar} from '../components/sidebar';
 import { useState, useEffect } from 'react';
 import SidebarContainer from './SidebarContainer';
@@ -18,14 +18,12 @@ function App() {
   const [drawerOpen, setDrawerOpen] = useState(false);
   const theme = useTheme();
   const isMdUp = useMediaQuery(theme.breakpoints.up('md'));
-  const [mode, setMode] = useState();  
-  const predersDarkMode = useMediaQuery('(prefers-color-scheme: dark)');
+  const prefersDarkMode = useMediaQuery('(prefers-color-scheme: dark)');
+  const [mode, setMode] = useState(prefersDarkMode ? 'dark' : 'light');
 
 
-  useEffect(() => {
-    setMode(predersDarkMode ? "dark" : "light");
-    console.log("isDark", predersDarkMode);
-  }, []); 
+
+ 
 
   useEffect( () => {
     if (isMdUp) {
